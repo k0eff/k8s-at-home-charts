@@ -1,0 +1,32 @@
+apiVersion: v1
+entries:
+  organizr:
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: Upgraded `common` chart dependency to version 4.5.2
+    apiVersion: v2
+    appVersion: latest
+    created: "2023-11-30T00:25:01.624402+02:00"
+    dependencies:
+    - name: common
+      repository: https://raw.githubusercontent.com/k0eff/k8s-at-home-library-charts/main/koeff/packages
+      version: 4.5.2
+    description: HTPC/Homelab Services Organizer
+    digest: c26a0ce397fbc90de16ccdb0365cf8f330156022bdf9eb0237263d5e95c4c79e
+    home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/organizr
+    icon: https://github.com/causefx/Organizr/blob/v2-master/plugins/images/organizr/logo.png?raw=true
+    keywords:
+    - organizr
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: jeff@billimek.com
+      name: billimek
+    name: organizr
+    sources:
+    - https://github.com/causefx/Organizr
+    - https://hub.docker.com/r/organizr/organizr
+    urls:
+    - https://github.com/k0eff/k8s-at-home-charts/raw/master/koeff/packages/organizr-7.4.2.tgz
+    version: 7.4.2
+generated: "2023-11-30T00:25:01.622784+02:00"
