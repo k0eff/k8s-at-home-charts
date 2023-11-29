@@ -17,7 +17,7 @@ maintainers:
     email: jeff@billimek.com
 dependencies:
   - name: common
-    repository: https://github.com/k0eff/k8s-at-home-library-charts/raw/main/koeff/packages
+    repository: https://raw.githubusercontent.com/k0eff/k8s-at-home-library-charts/main/koeff/packages
     version: 4.5.2
 annotations:
   artifacthub.io/changes: |-
